@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+nav#alphabet-menu {
+    text-align: center;
+    margin: 40px 0;
+}
+
+nav#alphabet-menu a {
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+nav#alphabet-menu a:hover {
+    background-color: #ccc;
+}
+
+section#glossary {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.term {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.term h3 {
+    margin: 0 0 10px;
+}
+
+.term p {
+    margin: 0;
+}
+
+/* Add margin to each alphabet letter section */
+section#glossary h2 {
+    margin-top: 50px;
+    text-decoration: underline;
+}
